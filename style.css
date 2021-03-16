@@ -1,0 +1,152 @@
+.Mynav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+
+.Mynav #imglink{
+    margin: 6px 20px 3px 6px;
+}
+
+.Mynav #img{
+    width: 100px;
+}
+
+.Mynav .mylink{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 18px 0 0 15%;
+    color: black;
+}
+
+.Mynav .mm{
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.Mynav #mymenu{
+    width: 50px;
+    height: 45px;
+    margin: 3px 1px 3px 3px;
+}
+
+.Secondbar{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    display: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Secondbar p a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Secondbar p a:hover{
+    color: crimson;
+}
+
+.Myimg{
+    width: 100%;
+    cursor: text;
+}
+
+.Myimg img{
+    width: 100%;
+}
+
+.Mydbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Mydbar .myrow{
+    display: flex;
+    flex-direction: row;
+    margin: 3px 0 2px 0;
+    margin: auto;
+}
+
+.Mydbar .myrow img{
+    width: 80px;
+    height: 50px;
+    margin: 20px;
+}
+
+.myfooter{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+}
+
+.myfooter img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 25px;
+    margin: 2px 0 0 2px;
+    border-radius: 3px;
+}
+.span{
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 1181px){
+    .Mynav .mylink{
+        margin: 18px 0 0 13%;
+    }
+}
+
+@media only screen and (max-width: 1048px){
+    .Mynav .mylink{
+        margin: 18px 0 0 12%;
+    }
+}
+
+@media only screen and (max-width: 971px){
+    .Mynav .mylink{
+        margin: 18px 0 0 10%;
+    }
+}
+
+@media only screen and (max-width: 884px){
+    .Mynav .mylink{
+        margin: 18px 0 0 8%;
+    }
+}
+
+@media only screen and (max-width: 797px){
+    .Mynav .mylink{
+        margin: 18px 0 0 5%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .Mynav .mylink{
+        display: none;
+    }
+    .Mynav .mm{
+        display: block;
+    }
+}
+
+
